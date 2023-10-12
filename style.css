@@ -1,0 +1,66 @@
+body{ font-size: large;
+    font-style: italic;
+
+}
+h1
+{background-color:#6ccfde;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 2rem}
+
+
+#registro{
+    height: 7rem;
+    width: 10rem;
+}
+#ingreso{
+    height: 7rem;
+    width: 10rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100vh ;
+    grid-template-rows: 1fr;
+    gap:1rem;
+    text-decoration: none;
+    list-style:decimal ;
+    background-color: #6ccfde ;
+    border: 1px black;
+    font-size: 20px;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.a{background-color: #6ccfde;}
+
+.b{background-color: aquamarine;}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 input[type="button"] {
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #6ccfde;
+    color: #fff;
+}
+
+.container-1 input[type="text"], [type="password"], [type = "email"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
